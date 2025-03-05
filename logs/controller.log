@@ -1,0 +1,25 @@
+2025-03-02 21:58:43 [http-nio-8001-exec-1] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para registrar una nueva compañía: mx.edu.utez.MensajesError.controller.dto.CompanyDto@68d63df4
+2025-03-02 21:58:59 [http-nio-8001-exec-4] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para registrar una nueva compañía: mx.edu.utez.MensajesError.controller.dto.CompanyDto@20550e8d
+2025-03-05 04:39:44 [http-nio-8001-exec-4] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para obtener todas las compañías
+2025-03-05 04:40:27 [http-nio-8001-exec-2] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para obtener todas las compañías
+2025-03-05 04:41:12 [http-nio-8001-exec-3] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para registrar una nueva compañía: mx.edu.utez.MensajesError.controller.dto.CompanyDto@7ee0773b
+2025-03-05 04:41:30 [http-nio-8001-exec-5] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para registrar una nueva compañía: mx.edu.utez.MensajesError.controller.dto.CompanyDto@3792dca3
+2025-03-05 04:42:32 [http-nio-8001-exec-8] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para registrar una nueva compañía: mx.edu.utez.MensajesError.controller.dto.CompanyDto@3231ab3d
+2025-03-05 04:42:43 [http-nio-8001-exec-10] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para registrar una nueva compañía: mx.edu.utez.MensajesError.controller.dto.CompanyDto@43dbeef0
+2025-03-05 04:43:03 [http-nio-8001-exec-4] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para obtener todas las compañías
+2025-03-05 04:43:23 [http-nio-8001-exec-2] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para obtener todas las compañías
+2025-03-05 04:43:29 [http-nio-8001-exec-3] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para registrar una nueva compañía: mx.edu.utez.MensajesError.controller.dto.CompanyDto@14ee53fb
+2025-03-05 04:43:58 [http-nio-8001-exec-5] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para registrar una nueva compañía: mx.edu.utez.MensajesError.controller.dto.CompanyDto@35c7fd2f
+2025-03-05 04:45:51 [http-nio-8001-exec-9] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para obtener compañía con UUID: f917fa81-bd9b-4b4b-912d-41e819f157dd
+2025-03-05 04:46:59 [http-nio-8001-exec-1] INFO  mx.edu.utez.MensajesError.controller.ProfileController - Solicitud para obtener el perfil activo
+2025-03-05 04:46:59 [http-nio-8001-exec-1] DEBUG mx.edu.utez.MensajesError.controller.ProfileController - Valor actual de activeProfile: dev
+2025-03-05 04:46:59 [http-nio-8001-exec-1] INFO  mx.edu.utez.MensajesError.controller.ProfileController - Perfil activo recuperado correctamente: dev
+2025-03-05 04:47:19 [http-nio-8001-exec-4] INFO  mx.edu.utez.MensajesError.controller.ProfileController - Solicitud para obtener el perfil activo
+2025-03-05 04:47:19 [http-nio-8001-exec-4] DEBUG mx.edu.utez.MensajesError.controller.ProfileController - Valor actual de activeProfile: dev
+2025-03-05 04:47:19 [http-nio-8001-exec-4] INFO  mx.edu.utez.MensajesError.controller.ProfileController - Perfil activo recuperado correctamente: dev
+2025-03-05 04:47:22 [http-nio-8001-exec-2] INFO  mx.edu.utez.MensajesError.controller.ProfileController - Solicitud para obtener el perfil activo
+2025-03-05 04:47:22 [http-nio-8001-exec-2] DEBUG mx.edu.utez.MensajesError.controller.ProfileController - Valor actual de activeProfile: prod
+2025-03-05 04:47:22 [http-nio-8001-exec-2] INFO  mx.edu.utez.MensajesError.controller.ProfileController - Perfil activo recuperado correctamente: prod
+2025-03-05 04:49:18 [http-nio-8001-exec-8] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para obtener compañía con UUID: f917fa81-bd9b-4b4b-912d-41e819f157dd
+2025-03-05 04:49:42 [http-nio-8001-exec-9] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para obtener compañía con UUID: f917fa81-bd9b-4b4b-912d-41e819f157dd
+2025-03-05 04:50:13 [http-nio-8001-exec-3] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para obtener compañía con UUID: f917fa81-bd9b-4b4b-912d-41e819f157dd

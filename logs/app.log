@@ -1,0 +1,168 @@
+2025-03-05 04:39:11 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-05 04:39:11 [restartedMain] INFO  mx.edu.utez.MensajesError.MensajesErrorApplication - Starting MensajesErrorApplication using Java 23.0.2 with PID 8296 (C:\Users\DELL\Documents\MensajesError\target\classes started by DELL in C:\Users\DELL\Documents\MensajesError)
+2025-03-05 04:39:11 [restartedMain] INFO  mx.edu.utez.MensajesError.MensajesErrorApplication - The following 1 profile is active: "dev"
+2025-03-05 04:39:11 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-05 04:39:11 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-05 04:39:12 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-05 04:39:12 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interface.
+2025-03-05 04:39:13 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-03-05 04:39:13 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2025-03-05 04:39:13 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-05 04:39:13 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-05 04:39:13 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-05 04:39:13 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1935 ms
+2025-03-05 04:39:13 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-05 04:39:13 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-05 04:39:13 [restartedMain] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-05 04:39:14 [restartedMain] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-05 04:39:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-05 04:39:14 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@789059fe
+2025-03-05 04:39:14 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-05 04:39:14 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-05 04:39:14 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-05 04:39:14 [restartedMain] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-05 04:39:15 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-05 04:39:15 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 04:39:16 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-05 04:39:16 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHandlerUtils - Appended trailing slash to static resource location: Deprecated: DispatcherServlet property is deprecated for removal and should no longer need to be configured\
+2025-03-05 04:39:16 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-05 04:39:16 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2025-03-05 04:39:16 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-03-05 04:39:16 [restartedMain] INFO  mx.edu.utez.MensajesError.MensajesErrorApplication - Started MensajesErrorApplication in 6.063 seconds (process running for 7.992)
+2025-03-05 04:39:23 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-05 04:39:23 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-05 04:39:23 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 04:39:23 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-05 04:39:23 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-05 04:39:27 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-03-05 04:39:27 [restartedMain] INFO  mx.edu.utez.MensajesError.MensajesErrorApplication - Starting MensajesErrorApplication using Java 23.0.2 with PID 2280 (C:\Users\DELL\Documents\MensajesError\target\classes started by DELL in C:\Users\DELL\Documents\MensajesError)
+2025-03-05 04:39:27 [restartedMain] INFO  mx.edu.utez.MensajesError.MensajesErrorApplication - The following 1 profile is active: "dev"
+2025-03-05 04:39:27 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-05 04:39:27 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-05 04:39:28 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-05 04:39:28 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+2025-03-05 04:39:29 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-03-05 04:39:29 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2025-03-05 04:39:29 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-05 04:39:29 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-05 04:39:29 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-05 04:39:29 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1668 ms
+2025-03-05 04:39:29 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-05 04:39:29 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-03-05 04:39:29 [restartedMain] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-05 04:39:29 [restartedMain] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-05 04:39:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-05 04:39:30 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2eeab2a8
+2025-03-05 04:39:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-05 04:39:30 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-05 04:39:30 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-05 04:39:30 [restartedMain] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-05 04:39:31 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-05 04:39:31 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 04:39:31 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-05 04:39:31 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHandlerUtils - Appended trailing slash to static resource location: Deprecated: DispatcherServlet property is deprecated for removal and should no longer need to be configured\
+2025-03-05 04:39:32 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-05 04:39:32 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2025-03-05 04:39:32 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-03-05 04:39:32 [restartedMain] INFO  mx.edu.utez.MensajesError.MensajesErrorApplication - Started MensajesErrorApplication in 5.454 seconds (process running for 6.971)
+2025-03-05 04:39:44 [http-nio-8001-exec-4] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-05 04:39:44 [http-nio-8001-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-05 04:39:44 [http-nio-8001-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-03-05 04:39:44 [http-nio-8001-exec-4] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para obtener todas las compañías
+2025-03-05 04:40:27 [http-nio-8001-exec-2] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para obtener todas las compañías
+2025-03-05 04:41:12 [http-nio-8001-exec-3] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para registrar una nueva compañía: mx.edu.utez.MensajesError.controller.dto.CompanyDto@7ee0773b
+2025-03-05 04:41:14 [http-nio-8001-exec-3] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1406, SQLState: 22001
+2025-03-05 04:41:14 [http-nio-8001-exec-3] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'rfc' at row 1
+2025-03-05 04:41:30 [http-nio-8001-exec-5] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para registrar una nueva compañía: mx.edu.utez.MensajesError.controller.dto.CompanyDto@3792dca3
+2025-03-05 04:41:30 [http-nio-8001-exec-5] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1406, SQLState: 22001
+2025-03-05 04:41:30 [http-nio-8001-exec-5] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'rfc' at row 1
+2025-03-05 04:42:32 [http-nio-8001-exec-8] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para registrar una nueva compañía: mx.edu.utez.MensajesError.controller.dto.CompanyDto@3231ab3d
+2025-03-05 04:42:32 [http-nio-8001-exec-8] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1406, SQLState: 22001
+2025-03-05 04:42:32 [http-nio-8001-exec-8] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'rfc' at row 1
+2025-03-05 04:42:43 [http-nio-8001-exec-10] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para registrar una nueva compañía: mx.edu.utez.MensajesError.controller.dto.CompanyDto@43dbeef0
+2025-03-05 04:42:43 [http-nio-8001-exec-10] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1406, SQLState: 22001
+2025-03-05 04:42:43 [http-nio-8001-exec-10] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'rfc' at row 1
+2025-03-05 04:43:03 [http-nio-8001-exec-4] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para obtener todas las compañías
+2025-03-05 04:43:23 [http-nio-8001-exec-2] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para obtener todas las compañías
+2025-03-05 04:43:29 [http-nio-8001-exec-3] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para registrar una nueva compañía: mx.edu.utez.MensajesError.controller.dto.CompanyDto@14ee53fb
+2025-03-05 04:43:29 [http-nio-8001-exec-3] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1406, SQLState: 22001
+2025-03-05 04:43:29 [http-nio-8001-exec-3] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Data truncation: Data too long for column 'rfc' at row 1
+2025-03-05 04:43:58 [http-nio-8001-exec-5] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para registrar una nueva compañía: mx.edu.utez.MensajesError.controller.dto.CompanyDto@35c7fd2f
+2025-03-05 04:45:51 [http-nio-8001-exec-9] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para obtener compañía con UUID: f917fa81-bd9b-4b4b-912d-41e819f157dd
+2025-03-05 04:46:59 [http-nio-8001-exec-1] INFO  mx.edu.utez.MensajesError.controller.ProfileController - Solicitud para obtener el perfil activo
+2025-03-05 04:46:59 [http-nio-8001-exec-1] DEBUG mx.edu.utez.MensajesError.controller.ProfileController - Valor actual de activeProfile: dev
+2025-03-05 04:46:59 [http-nio-8001-exec-1] INFO  mx.edu.utez.MensajesError.controller.ProfileController - Perfil activo recuperado correctamente: dev
+2025-03-05 04:47:19 [http-nio-8001-exec-4] INFO  mx.edu.utez.MensajesError.controller.ProfileController - Solicitud para obtener el perfil activo
+2025-03-05 04:47:19 [http-nio-8001-exec-4] DEBUG mx.edu.utez.MensajesError.controller.ProfileController - Valor actual de activeProfile: dev
+2025-03-05 04:47:19 [http-nio-8001-exec-4] INFO  mx.edu.utez.MensajesError.controller.ProfileController - Perfil activo recuperado correctamente: dev
+2025-03-05 04:47:21 [File Watcher] INFO  org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-03-05 04:47:21 [Thread-5] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-05 04:47:21 [tomcat-shutdown] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8001"]
+2025-03-05 04:47:21 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-05 04:47:21 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8001"]
+2025-03-05 04:47:21 [Thread-5] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 04:47:21 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-05 04:47:21 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-05 04:47:21 [restartedMain] INFO  mx.edu.utez.MensajesError.MensajesErrorApplication - Starting MensajesErrorApplication using Java 23.0.2 with PID 2280 (C:\Users\DELL\Documents\MensajesError\target\classes started by DELL in C:\Users\DELL\Documents\MensajesError)
+2025-03-05 04:47:21 [restartedMain] INFO  mx.edu.utez.MensajesError.MensajesErrorApplication - The following 1 profile is active: "prod"
+2025-03-05 04:47:21 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-05 04:47:21 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-03-05 04:47:21 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8001 (http)
+2025-03-05 04:47:21 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2025-03-05 04:47:21 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-05 04:47:21 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-05 04:47:21 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-05 04:47:21 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 411 ms
+2025-03-05 04:47:21 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-05 04:47:21 [restartedMain] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-05 04:47:21 [restartedMain] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-05 04:47:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-03-05 04:47:21 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d29b26f
+2025-03-05 04:47:21 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-03-05 04:47:21 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-05 04:47:21 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-05 04:47:21 [restartedMain] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-05 04:47:21 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-05 04:47:21 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 04:47:21 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-05 04:47:22 [restartedMain] WARN  org.springframework.web.servlet.resource.ResourceHandlerUtils - Appended trailing slash to static resource location: Deprecated: DispatcherServlet property is deprecated for removal and should no longer need to be configured\
+2025-03-05 04:47:22 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-03-05 04:47:22 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2025-03-05 04:47:22 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8001 (http) with context path '/'
+2025-03-05 04:47:22 [restartedMain] INFO  mx.edu.utez.MensajesError.MensajesErrorApplication - Started MensajesErrorApplication in 0.904 seconds (process running for 476.737)
+2025-03-05 04:47:22 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-03-05 04:47:22 [http-nio-8001-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-05 04:47:22 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-05 04:47:22 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-03-05 04:47:22 [http-nio-8001-exec-2] INFO  mx.edu.utez.MensajesError.controller.ProfileController - Solicitud para obtener el perfil activo
+2025-03-05 04:47:22 [http-nio-8001-exec-2] DEBUG mx.edu.utez.MensajesError.controller.ProfileController - Valor actual de activeProfile: prod
+2025-03-05 04:47:22 [http-nio-8001-exec-2] INFO  mx.edu.utez.MensajesError.controller.ProfileController - Perfil activo recuperado correctamente: prod
+2025-03-05 04:49:18 [http-nio-8001-exec-8] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para obtener compañía con UUID: f917fa81-bd9b-4b4b-912d-41e819f157dd
+2025-03-05 04:49:42 [http-nio-8001-exec-9] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para obtener compañía con UUID: f917fa81-bd9b-4b4b-912d-41e819f157dd
+2025-03-05 04:50:13 [http-nio-8001-exec-3] INFO  mx.edu.utez.MensajesError.controller.CompanyController - Solicitud para obtener compañía con UUID: f917fa81-bd9b-4b4b-912d-41e819f157dd
+2025-03-05 04:51:08 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-05 04:51:08 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-05 04:51:08 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05 04:51:08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-03-05 04:51:08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
